@@ -1,0 +1,62 @@
+@import "_variables";
+/*base*/
+
+body {
+  background: $color-white;
+  font-family: $font-roboto;
+  font-size: $font-size-normal;
+  color: $color-black;
+}
+
+h1 {
+  font-family: $font-roboto;
+  font-weight: bold;
+  font-size: $font-size-huge;
+}
+h2 {
+  font-family: $font-roboto;
+  font-weight: bold;
+  font-size: $font-size-xlarge;
+}
+h3 {
+  font-family: $font-roboto;
+  font-weight: bold;
+  font-size: $font-size-normal;
+}
+h4 {
+  font-family: $font-roboto;
+  font-weight: bold;
+  font-size: $font-size-normal;
+}
+h5 {
+  font-family: $font-roboto;
+  font-weight: bold;
+  font-size: $font-size-normal;
+}
+a, a:hover{
+  color: $color-black;
+}
+.btn{
+  border: none;
+  border-radius: 0;
+}
+.btn-primary{
+ background-color: $color-primary;
+  &:hover{
+    background-color: $color-primary;
+    opacity: 0.9;
+  }
+}
+.btn-secondary{
+  background-color: $color-secondary;
+  &:hover{
+    background-color: $color-secondary;
+    opacity: 0.9;
+  }
+}
+.btn-transparent{
+  text-transform: uppercase;
+  border: $color-white 2px solid;
+  color: $color-white;
+}
+/*base end*/
