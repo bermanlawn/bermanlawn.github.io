@@ -1,14 +1,9 @@
 "use strict";
 
-$(document).ready(function () {
-  // $('.your-class').slick({
-  //   setting-name: setting-value
-  // });
-  $('.autoplay').slick({
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 2000
-  });
-});
+console.log('\'Allo \'Allo!'); // Uncomment to enable Bootstrap tooltips
+// https://getbootstrap.com/docs/4.0/components/tooltips/#example-enable-tooltips-everywhere
+// $(function () { $('[data-toggle="tooltip"]').tooltip(); });
+// Uncomment to enable Bootstrap popovers
+// https://getbootstrap.com/docs/4.0/components/popovers/#example-enable-popovers-everywhere
+// $(function () { $('[data-toggle="popover"]').popover(); });
 //# sourceMappingURL=main.js.map
