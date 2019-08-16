@@ -1,9 +1,6 @@
 "use strict";
 
 $(document).ready(function () {
-  // $('.your-class').slick({
-  //   setting-name: setting-value
-  // });
   $('.autoplay').slick({
     slidesToShow: 3,
     slidesToScroll: 1,
